@@ -60,6 +60,7 @@ void AJamCharacter::SetupPlayerInputComponent(class UInputComponent* PlayerInput
 	PlayerInputComponent->BindAxis("MoveForward", this, &AJamCharacter::MoveForward);
 	PlayerInputComponent->BindAxis("MoveRight", this, &AJamCharacter::MoveRight);
 
+	/*
 	// We have 2 versions of the rotation bindings to handle different kinds of devices differently
 	// "turn" handles devices that provide an absolute delta, such as a mouse.
 	// "turnrate" is for devices that we choose to treat as a rate of change, such as an analog joystick
@@ -67,6 +68,7 @@ void AJamCharacter::SetupPlayerInputComponent(class UInputComponent* PlayerInput
 	PlayerInputComponent->BindAxis("TurnRate", this, &AJamCharacter::TurnAtRate);
 	PlayerInputComponent->BindAxis("LookUp", this, &APawn::AddControllerPitchInput);
 	PlayerInputComponent->BindAxis("LookUpRate", this, &AJamCharacter::LookUpAtRate);
+	*/
 
 	// handle touch devices
 	PlayerInputComponent->BindTouch(IE_Pressed, this, &AJamCharacter::TouchStarted);
