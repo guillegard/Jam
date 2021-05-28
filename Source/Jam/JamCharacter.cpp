@@ -54,11 +54,14 @@ void AJamCharacter::SetupPlayerInputComponent(class UInputComponent* PlayerInput
 {
 	// Set up gameplay key bindings
 	check(PlayerInputComponent);
-	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ACharacter::Jump);
-	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);
+	//PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ACharacter::Jump);
+	//PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);
 
 	PlayerInputComponent->BindAxis("MoveForward", this, &AJamCharacter::MoveForward);
 	PlayerInputComponent->BindAxis("MoveRight", this, &AJamCharacter::MoveRight);
+
+	PlayerInputComponent->BindAction("Disguise", IE_Pressed,this, &AJamCharacter::Disguise);
+	PlayerInputComponent->BindAction("DebugKey", IE_Pressed,this, &AJamCharacter::Stun);
 
 	/*
 	// We have 2 versions of the rotation bindings to handle different kinds of devices differently
@@ -76,6 +79,42 @@ void AJamCharacter::SetupPlayerInputComponent(class UInputComponent* PlayerInput
 
 	// VR headset functionality
 	PlayerInputComponent->BindAction("ResetVR", IE_Pressed, this, &AJamCharacter::OnResetVR);
+}
+
+void AJamCharacter::GetMana(const int ManaToGet)
+{
+	Mana = Mana + ManaToGet > MaxMana ? MaxMana : Mana + ManaToGet;
+}
+
+void AJamCharacter::UseMana(const int ManaToUse)
+{
+	Mana = Mana - ManaToUse < 0 ? 0 : Mana - ManaToUse;
+}
+
+void AJamCharacter::Stun()
+{
+	if(Stunned) return;
+	
+	Stunned = true;
+	StunEffect();
+}
+
+void AJamCharacter::DefuseStun()
+{
+	Stunned = false;
+}
+
+void AJamCharacter::Disguise()
+{
+	if(Mana <= 0) return;
+	
+	Disguising = true;
+	
+}
+
+void AJamCharacter::DefuseDisguise()
+{
+	Disguising = false;
 }
 
 
