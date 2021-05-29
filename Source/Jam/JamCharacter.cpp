@@ -61,6 +61,7 @@ void AJamCharacter::SetupPlayerInputComponent(class UInputComponent* PlayerInput
 	PlayerInputComponent->BindAxis("MoveRight", this, &AJamCharacter::MoveRight);
 
 	PlayerInputComponent->BindAction("Disguise", IE_Pressed,this, &AJamCharacter::Disguise);
+	PlayerInputComponent->BindAction("Disguise", IE_Released,this, &AJamCharacter::DefuseDisguise);
 	PlayerInputComponent->BindAction("DebugKey", IE_Pressed,this, &AJamCharacter::Stun);
 
 	/*
@@ -81,7 +82,7 @@ void AJamCharacter::SetupPlayerInputComponent(class UInputComponent* PlayerInput
 	PlayerInputComponent->BindAction("ResetVR", IE_Pressed, this, &AJamCharacter::OnResetVR);
 }
 
-void AJamCharacter::GetMana(const int ManaToGet)
+void AJamCharacter::IncreaseMana(const int ManaToGet)
 {
 	Mana = Mana + ManaToGet > MaxMana ? MaxMana : Mana + ManaToGet;
 }
@@ -89,6 +90,11 @@ void AJamCharacter::GetMana(const int ManaToGet)
 void AJamCharacter::UseMana(const int ManaToUse)
 {
 	Mana = Mana - ManaToUse < 0 ? 0 : Mana - ManaToUse;
+}
+
+int AJamCharacter::GetMana() const
+{
+	return Mana;
 }
 
 void AJamCharacter::Stun()
@@ -106,15 +112,16 @@ void AJamCharacter::DefuseStun()
 
 void AJamCharacter::Disguise()
 {
-	if(Mana <= 0) return;
+	if(Mana < DisguiseManaCost || Disguising) return;
 	
 	Disguising = true;
-	
+	DisguiseEffect();
 }
 
 void AJamCharacter::DefuseDisguise()
 {
 	Disguising = false;
+	DefuseDisguiseEffect();
 }
 
 
@@ -147,6 +154,7 @@ void AJamCharacter::LookUpAtRate(float Rate)
 
 void AJamCharacter::MoveForward(float Value)
 {
+	if(Disguising) return;
 	if ((Controller != NULL) && (Value != 0.0f))
 	{
 		// find out which way is forward
@@ -161,6 +169,7 @@ void AJamCharacter::MoveForward(float Value)
 
 void AJamCharacter::MoveRight(float Value)
 {
+	if(Disguising) return;
 	if ( (Controller != NULL) && (Value != 0.0f) )
 	{
 		// find out which way is right

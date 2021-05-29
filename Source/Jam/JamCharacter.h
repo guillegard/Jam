@@ -82,8 +82,11 @@ protected:
 	UPROPERTY(EditAnywhere)
 	int Mana;
 
-	UPROPERTY(EditAnywhere)
+	UPROPERTY(BlueprintReadWrite, EditAnywhere)
 	int MaxMana;
+
+	UPROPERTY(BlueprintReadOnly, EditAnywhere)
+	int DisguiseManaCost;
 
 	UPROPERTY()
 	bool Stunned;
@@ -101,10 +104,13 @@ protected:
 public:
 	//Stats Functions
 	UFUNCTION(BlueprintCallable)
-	void GetMana(int ManaToGet);
+	void IncreaseMana(int ManaToGet);
 
 	UFUNCTION(BlueprintCallable)
 	void UseMana(int ManaToUse);
+
+	UFUNCTION(BlueprintCallable)
+	int GetMana() const;
 
 	UFUNCTION(BlueprintCallable)
     void Stun();
@@ -118,7 +124,13 @@ public:
 	UFUNCTION(BlueprintCallable)
 	void Disguise();
 
+	UFUNCTION(BlueprintImplementableEvent)
+	void DisguiseEffect();
+
 	UFUNCTION(BlueprintCallable)
 	void DefuseDisguise();
+
+	UFUNCTION(BlueprintImplementableEvent)
+	void DefuseDisguiseEffect();
 };
 

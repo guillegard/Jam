@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f710e38-e180-4b9b-b106-28edc2042709" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Content/ThirdPersonCPP/Maps/GuillermoGym.umap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Blueprints/UI/WB_MazeCharacter.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Jam/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Jam/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config/DefaultInput.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultInput.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/BP_ManaPotion_Master.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/BP_ManaPotion_Master.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/ThirdPersonCPP/Maps/GuillermoGym.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ThirdPersonCPP/Maps/GuillermoGym.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Jam/Jam.Build.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Jam/Jam.Build.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/Jam/JamCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Jam/JamCharacter.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/Jam/JamCharacter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Jam/JamCharacter.h" afterDir="false" />
     </list>
@@ -21,12 +23,14 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://C:/Program Files/Epic Games/UE_4.25/Engine/Source/Runtime/Engine/Private/Character.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://C:/Program Files/Epic Games/UE_4.25/Engine/Source/Runtime/Engine/Classes/GameFramework/Character.h" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Source/Jam/JamCharacter.cpp" />
+      <option value="$PROJECT_DIR$/Source/Jam/Jam.Build.cs" />
       <option value="$PROJECT_DIR$/Source/Jam/JamCharacter.h" />
+      <option value="$PROJECT_DIR$/Source/Jam/JamCharacter.cpp" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1t6TwKiBMWe2YhjLzGSYJ74KhVW" />
@@ -209,6 +213,7 @@
       <updated>1622088783238</updated>
       <workItem from="1622088849112" duration="596000" />
       <workItem from="1622181206796" duration="2680000" />
+      <workItem from="1622259824093" duration="3448000" />
     </task>
     <servers />
   </component>
