@@ -63,10 +63,62 @@ protected:
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 	// End of APawn interface
 
+	
+
 public:
 	/** Returns CameraBoom subobject **/
 	FORCEINLINE class USpringArmComponent* GetCameraBoom() const { return CameraBoom; }
 	/** Returns FollowCamera subobject **/
 	FORCEINLINE class UCameraComponent* GetFollowCamera() const { return FollowCamera; }
+
+protected:
+	//Stats
+	UPROPERTY(EditAnywhere)
+	int Health;
+
+	UPROPERTY(EditAnywhere)
+	int MaxHealth;
+
+	UPROPERTY(EditAnywhere)
+	int Mana;
+
+	UPROPERTY(EditAnywhere)
+	int MaxMana;
+
+	UPROPERTY()
+	bool Stunned;
+
+	UPROPERTY()
+	bool Disguising;
+
+	//Gameplay
+	UPROPERTY(EditAnywhere)
+	UStaticMesh* CharacterMesh;
+
+	UPROPERTY(EditAnywhere)
+	UStaticMesh* ChestMesh;
+
+public:
+	//Stats Functions
+	UFUNCTION(BlueprintCallable)
+	void GetMana(int ManaToGet);
+
+	UFUNCTION(BlueprintCallable)
+	void UseMana(int ManaToUse);
+
+	UFUNCTION(BlueprintCallable)
+    void Stun();
+
+	UFUNCTION(BlueprintImplementableEvent)
+	void StunEffect();
+
+	UFUNCTION(BlueprintCallable)
+	void DefuseStun();
+
+	UFUNCTION(BlueprintCallable)
+	void Disguise();
+
+	UFUNCTION(BlueprintCallable)
+	void DefuseDisguise();
 };
 
