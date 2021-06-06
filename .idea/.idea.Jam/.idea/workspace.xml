@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f710e38-e180-4b9b-b106-28edc2042709" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Jam/.idea/contentModel.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Jam/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Jam/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Jam/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Jam/.idea/riderModule.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Jam/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Jam/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/AI/BTTask_SetPickupLocation.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/AI/BTTask_SetPickupLocation.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/AI/NPC_AIController.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/AI/NPC_AIController.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/AI/NPC_BehaviorTree.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/AI/NPC_BehaviorTree.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/AI/NPC_Blackboard.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/AI/NPC_Blackboard.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/BP_ManaPotion_Master.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/BP_ManaPotion_Master.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/ThirdPersonCPP/Maps/GuillermoGym.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ThirdPersonCPP/Maps/GuillermoGym.umap" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -213,6 +214,7 @@
       <workItem from="1622181206796" duration="2680000" />
       <workItem from="1622259824093" duration="3448000" />
       <workItem from="1622700062810" duration="788000" />
+      <workItem from="1622861347702" duration="1191000" />
     </task>
     <servers />
   </component>
