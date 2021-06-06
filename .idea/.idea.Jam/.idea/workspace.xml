@@ -5,13 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f710e38-e180-4b9b-b106-28edc2042709" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Content/AIGym.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Jam/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Jam/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Jam/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Jam/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/AI/BTTask_SetPickupLocation.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/AI/BTTask_SetPickupLocation.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/AI/NPC_AIController.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/AI/NPC_AIController.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/AI/NPC_BehaviorTree.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/AI/NPC_BehaviorTree.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/AI/NPC_Blackboard.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/AI/NPC_Blackboard.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/AI/NPC_Character.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/AI/NPC_Character.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Blueprints/BP_ManaPotion_Master.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/BP_ManaPotion_Master.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/BP_Potion_Spawner.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/BP_Potion_Spawner.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Geometry/Materials/MI_Floor.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Geometry/Materials/MI_Floor.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Geometry/Materials/MI_ManaPotion.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Geometry/Materials/MI_ManaPotion.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Geometry/Materials/MM_TillingTexture.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Geometry/Materials/MM_TillingTexture.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Geometry/Materials/MM_bottles.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Geometry/Materials/MM_bottles.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/ThirdPersonCPP/Maps/GuillermoGym.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ThirdPersonCPP/Maps/GuillermoGym.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Jam/JamCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Jam/JamCharacter.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,10 +28,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/../../../../../Program Files/Epic Games/UE_4.25/Engine/Source/Runtime/Engine/Private/Character.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../../../../Program Files/Epic Games/UE_4.25/Engine/Source/Runtime/Engine/Classes/GameFramework/Character.h" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -215,6 +219,7 @@
       <workItem from="1622259824093" duration="3448000" />
       <workItem from="1622700062810" duration="788000" />
       <workItem from="1622861347702" duration="1191000" />
+      <workItem from="1622961210815" duration="757000" />
     </task>
     <servers />
   </component>

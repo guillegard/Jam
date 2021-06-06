@@ -120,6 +120,8 @@ void AJamCharacter::Disguise()
 
 void AJamCharacter::DefuseDisguise()
 {
+	if(!Disguising) return; 
+	
 	Disguising = false;
 	DefuseDisguiseEffect();
 }
