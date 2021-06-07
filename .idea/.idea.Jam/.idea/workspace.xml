@@ -5,21 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9f710e38-e180-4b9b-b106-28edc2042709" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Content/AIGym.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Jam/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Jam/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/AI/BTTask_MoveCLoseTo.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/AI/BTTask_OpenChest.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Jam/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Jam/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/AI/BTTask_Chest.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/AI/BTTask_Chest.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/AI/BTTask_SetPickupLocation.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/AI/BTTask_SetPickupLocation.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/AI/NPC_AIController.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/AI/NPC_AIController.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/AI/NPC_BehaviorTree.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/AI/NPC_BehaviorTree.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/AI/NPC_Blackboard.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/AI/NPC_Blackboard.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/AI/NPC_Character.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/AI/NPC_Character.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/BP_ManaPotion_Master.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/BP_ManaPotion_Master.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/BP_Potion_Spawner.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/BP_Potion_Spawner.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Geometry/Materials/MI_Floor.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Geometry/Materials/MI_Floor.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Geometry/Materials/MI_ManaPotion.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Geometry/Materials/MI_ManaPotion.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Geometry/Materials/MM_TillingTexture.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Geometry/Materials/MM_TillingTexture.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Geometry/Materials/MM_bottles.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Geometry/Materials/MM_bottles.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/AIGym.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/AIGym.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/BP_Treasure.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/BP_Treasure.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Mannequin/Animations/ThirdPersonRun.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Mannequin/Animations/ThirdPersonRun.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Mannequin/Animations/ThirdPersonWalk.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Mannequin/Animations/ThirdPersonWalk.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ThirdPersonCPP/Maps/GuillermoGym.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ThirdPersonCPP/Maps/GuillermoGym.umap" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/Jam/JamCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Jam/JamCharacter.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Jam/JamCharacter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Jam/JamCharacter.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -220,6 +223,8 @@
       <workItem from="1622700062810" duration="788000" />
       <workItem from="1622861347702" duration="1191000" />
       <workItem from="1622961210815" duration="757000" />
+      <workItem from="1623024167873" duration="668000" />
+      <workItem from="1623030900721" duration="87000" />
     </task>
     <servers />
   </component>

@@ -62,7 +62,7 @@ void AJamCharacter::SetupPlayerInputComponent(class UInputComponent* PlayerInput
 
 	PlayerInputComponent->BindAction("Disguise", IE_Pressed,this, &AJamCharacter::Disguise);
 	PlayerInputComponent->BindAction("Disguise", IE_Released,this, &AJamCharacter::DefuseDisguise);
-	PlayerInputComponent->BindAction("DebugKey", IE_Pressed,this, &AJamCharacter::Stun);
+	//PlayerInputComponent->BindAction("DebugKey", IE_Pressed,this, &AJamCharacter::Stun);
 
 	/*
 	// We have 2 versions of the rotation bindings to handle different kinds of devices differently
