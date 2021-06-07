@@ -88,7 +88,7 @@ protected:
 	UPROPERTY(BlueprintReadOnly, EditAnywhere)
 	int DisguiseManaCost;
 
-	UPROPERTY()
+	UPROPERTY(BlueprintReadOnly)
 	bool Stunned;
 
 	UPROPERTY()
